@@ -17,19 +17,19 @@ const divStyle = {
 }
 const slideImages = [
     {
-        url: '/src/assets/Paintings/slide1.webp',
+        url: '../assets/Paintings/slide1.webp',
         caption: 'Slide 1'
     },
     {
-        url: '/src/assets/Paintings/slide2.webp',
+        url: '../assets/Paintings/slide2.webp',
         caption: 'Slide 2'
     },
     {
-        url: '/src/assets/Paintings/slide3.webp',
+        url: '../assets/Paintings/slide3.webp',
         caption: 'Slide 3'
     },
     {
-        url: '/src/assets/Paintings/slide4.webp',
+        url: '../assets/Paintings/slide4.webp',
         caption: 'Slide 4'
     },
 ];
