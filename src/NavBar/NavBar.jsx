@@ -10,7 +10,7 @@ const NavBar = () => {
                 <div className="container">
                     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                         <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-                            <img src="/src/assets/logo.png" alt="logo" style={{ marginRight: '0.5rem' }} width="32" height="32" className="rounded-circle" />
+                            <img src="../assets/logo.png" alt="logo" style={{ marginRight: '0.5rem' }} width="32" height="32" className="rounded-circle" />
                             <span className='text-light'>ARTSTHOP</span>
                         </a>
                         <ul className="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0">
