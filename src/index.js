@@ -24,9 +24,9 @@ root.render(
         <Route path='/' exact element={<App />} />
         <Route path='/login' exact element={<LoginPage />} />
         <Route path='/register' exact element={<RegisterPage />} />
-        <Route path='/products' exact element={<ProductsList />} />
+        <Route path='/products' element={<ProductsList />} />
         <Route path='/view/:id' exact element={<ViewProduct />} />
-        <Route path='/orders' exact element={<Orders />} />
+        <Route path='https://main--iridescent-bienenstitch-136fba.netlify.app/orders' exact element={<Orders />} />
         <Route path='/cart' exact element={<CartPage />} />
         <Route path='/seemore/:email' exact element={<SeeMore />} />
         <Route path='/cartDetails/:bill'  element={<CartDetailsTest />} />
