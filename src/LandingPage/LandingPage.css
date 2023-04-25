@@ -1,6 +1,6 @@
 .landing {
     height: 112.5vh;
-    background-image: url('../assets/LandingPage/final.jpg');
+    background-image: url('src/assets/LandingPage/final.jpg');
     background-repeat: no-repeat;
 }
 
