@@ -48,10 +48,10 @@ const Artist = () => {
                         ref={ref}
                     >
                         <div className='artist-socials'>
-                            <img style={{ margin: 'auto' }} src='/src/assets/Socials/instagram.png' alt="instagram icon" height='50' width='50' />
-                            <img style={{ margin: 'auto' }} src='/src/assets/Socials/youtube.png' alt="youtube icon" height='50' width='50' />
-                            <img style={{ margin: 'auto' }} src='/src/assets/Socials/tumblr.png' alt="tumblr icon" height='50' width='50' />
-                            <img style={{ margin: 'auto' }} src='/src/assets/Socials/pinterest.png' alt="pinterest icon" height='50' width='50' />
+                            <img style={{ margin: 'auto' }} src='public/src/assets/Socials/instagram.png' alt="instagram icon" height='50' width='50' />
+                            <img style={{ margin: 'auto' }} src='public/src/assets/Socials/youtube.png' alt="youtube icon" height='50' width='50' />
+                            <img style={{ margin: 'auto' }} src='public/src/assets/Socials/tumblr.png' alt="tumblr icon" height='50' width='50' />
+                            <img style={{ margin: 'auto' }} src='public/src/assets/Socials/pinterest.png' alt="pinterest icon" height='50' width='50' />
                         </div>
                     </motion.div>
                 </motion.div>
