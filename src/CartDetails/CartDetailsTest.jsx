@@ -36,7 +36,7 @@ const CartDetailsTest = ( { cart, bill }) => {
         if (shippingName != '' && firstName != '' && lastName != '' && email != '' && shippingStreet != '' && shippingCity != '' && shippingPostalZipCode != '') {
             // alert("Thank you for placing your order " + shippingName);
             console.log("Thank you for placing your order " + shippingName)
-            const response = await fetch('http://localhost:3000/submitorder', {
+            const response = await fetch('https://webdev-6.11p3tlf503nb.us-east.codeengine.appdomain.cloud/submitorder', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ shippingName, firstName, lastName, email, shippingStreet, shippingCity, shippingPostalZipCode, cart, bill, orderId })
