@@ -19,7 +19,7 @@ const Orders = () => {
   const getOrders = async (search) => {
     console.log('searchvall??', search)
     try {
-      const res = await axios.get(`http://localhost:3000/getorders/${search}`,
+      const res = await axios.get(`https://webdev-6.11p3tlf503nb.us-east.codeengine.appdomain.cloud/getorders/${search}`,
       );
       setOrdersData(res.data);
       // console.log(res.data[1].cart[0]['id'])
