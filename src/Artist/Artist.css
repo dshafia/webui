@@ -3,7 +3,7 @@
     flex-direction: row;
     height: 42rem;
     color: white;
-    background-image: url('src/assets/LandingPage/final.jpg');
+    background-image: url('/src/assets/LandingPage/final.jpg');
     text-align: justify;
 }
 
