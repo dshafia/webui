@@ -48,7 +48,7 @@ const Artist = () => {
                         ref={ref}
                     >
                         <div className='artist-socials'>
-                            <img style={{ margin: 'auto' }} src='public/assets/Socials/instagram.png' alt="instagram icon" height='50' width='50' />
+                            <img style={{ margin: 'auto' }} src='src/assets/Socials/instagram.png' alt="instagram icon" height='50' width='50' />
                             <img style={{ margin: 'auto' }} src='public/assets/Socials/youtube.png' alt="youtube icon" height='50' width='50' />
                             <img style={{ margin: 'auto' }} src='public/assets/Socials/tumblr.png' alt="tumblr icon" height='50' width='50' />
                             <img style={{ margin: 'auto' }} src='public/assets/Socials/pinterest.png' alt="pinterest icon" height='50' width='50' />
