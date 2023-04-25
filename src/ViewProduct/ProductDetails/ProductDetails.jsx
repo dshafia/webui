@@ -16,8 +16,8 @@ const ProductDetails = ({ pid }) => {
       console.log("useEffect called");
       const getImagesData = async () => {
         try {
-          // const res = await axios.get('http://localhost:3000/getimage/TEST IMAGE 1',
-          const res = await axios.get('http://localhost:3000/getall',
+          // const res = await axios.get('https://webdev-6.11p3tlf503nb.us-east.codeengine.appdomain.cloud/getimage/TEST IMAGE 1',
+          const res = await axios.get('https://webdev-6.11p3tlf503nb.us-east.codeengine.appdomain.cloud/getall',
           );
           setImagesData(res.data);
           console.log('getting images', res.data)
