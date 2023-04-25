@@ -1,5 +1,5 @@
 .art-container {
-    background-image: url('../assets/LandingPage/final.jpg');
+    background-image: url('src/assets/LandingPage/final.jpg');
     margin-top: 11rem;
     height: 90vh;
 }
