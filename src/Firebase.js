@@ -34,8 +34,8 @@ export const signInWithGoogle = () => {
 }
 
 //The below is sign out function call it wherever necessary "onClick:signOut".
-function signOut() {
-    gapi.auth2.getAuthInstance().signOut().then(function() {
-      console.log('user signed out')
-    })
-  }
+//function signOut() {
+  //  gapi.auth2.getAuthInstance().signOut().then(function() {
+    //  console.log('user signed out')
+    //})
+ // }
