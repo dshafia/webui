@@ -9,7 +9,6 @@ import NavBar from './NavBar/NavBar';
 import LoginPage from './LoginPage/loginPage'
 import RegisterPage from'./RegisterPage/RegisterPage';
 import Orders from './Orders/Orders';
-import CartDetails from './CartDetails/CartDetails';
 import Confirmation from './Confirmation/Confirmation';
 import CartDetailsTest from './CartDetails/CartDetailsTest';
 import CartPage from './ProductsList/CartPage';
