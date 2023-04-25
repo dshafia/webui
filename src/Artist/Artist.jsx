@@ -24,7 +24,7 @@ const Artist = () => {
 
     return (
         <div className='artist-container'>
-            <img className='artist-image' src='/src/assets/images/images/artist.jpg' alt="artist image" height="80%" />
+            <img className='artist-image' src='../assets/images/images/artist.jpg' alt="artist image" height="80%" />
             <div className='artist-info'>
                 <motion.div style={{ y: y1, x: 50 }}>
                     <label>Lily Brown</label>
@@ -49,9 +49,9 @@ const Artist = () => {
                     >
                         <div className='artist-socials'>
                             <img style={{ margin: 'auto' }} src='../assets/Socials/instagram.png' alt="instagram icon" height='50' width='50' />
-                            <img style={{ margin: 'auto' }} src='public/assets/Socials/youtube.png' alt="youtube icon" height='50' width='50' />
-                            <img style={{ margin: 'auto' }} src='public/assets/Socials/tumblr.png' alt="tumblr icon" height='50' width='50' />
-                            <img style={{ margin: 'auto' }} src='public/assets/Socials/pinterest.png' alt="pinterest icon" height='50' width='50' />
+                            <img style={{ margin: 'auto' }} src='../assets/Socials/youtube.png' alt="youtube icon" height='50' width='50' />
+                            <img style={{ margin: 'auto' }} src='../assets/Socials/tumblr.png' alt="tumblr icon" height='50' width='50' />
+                            <img style={{ margin: 'auto' }} src='../assets/Socials/pinterest.png' alt="pinterest icon" height='50' width='50' />
                         </div>
                     </motion.div>
                 </motion.div>
