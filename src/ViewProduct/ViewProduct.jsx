@@ -55,7 +55,7 @@ const ViewProduct = () => {
     }, []);
 
     const callBackend = () => {
-        axios.get('http://localhost:4000/artsthop')
+        axios.get('https://webdev-6.11p3tlf503nb.us-east.codeengine.appdomain.cloud/artsthop')
             .then(response => {
                 setTexts(response.data);
                 console.log(texts);
