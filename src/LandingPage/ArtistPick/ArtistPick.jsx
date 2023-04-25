@@ -19,9 +19,9 @@ const ArtistPick = () => {
       <Test />
       <div className='container-two'>
         <label className='card-container subtext'>
-          BEAUTIFY YOUR LIVING SPACE
+          A JOURNEY THROUGH ART
         </label>
-        <p className='card-container desctext'>Shop for exquisite art that reflects <br /> your personal style.</p>
+        <p className='card-container desctext'>Let art be your guide on a <br /> journey of creativity.</p>
         <div className='card-container caros'><ArtistCarousel /></div>
         <div className='card-container art-button'><Button variant="dark" onClick={() => navigate('/products')}>See More</Button></div>
       </div>
